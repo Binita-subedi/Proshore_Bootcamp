@@ -11,3 +11,7 @@ Template literals are literals with backticks(`), allowing embedded expressions 
 ## Arrow Fuction
 
 Also called"Fat arrow function" are undoubtedly one of the more popular features of Es6. They introduced a new way of writing concise functions.
+
+## Default Function paramater
+
+Default function parameters allow named parameter to be initialized with default values if no value or undefinrd is passed.
