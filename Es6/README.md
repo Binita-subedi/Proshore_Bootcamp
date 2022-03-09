@@ -6,7 +6,7 @@ The Destructing ssingment syntax is a JavaScript expression that makes it possib
 
 ## Template Literals (Template strings)
 
-Template literals are literals with backticks(`), allowing embedded expressions called substitutions.
+Template literals are literals with backticks( ` ), allowing embedded expressions called substitutions.
 
 ## Arrow Fuction
 
@@ -14,4 +14,8 @@ Also called"Fat arrow function" are undoubtedly one of the more popular features
 
 ## Default Function paramater
 
-Default function parameters allow named parameter to be initialized with default values if no value or undefinrd is passed.
+Default function parameters allow named parameter to be initialized with default values if no value or undefined is passed.
+
+## Rest Parameter
+
+Rest parameter is an improved way to handle function parameter, allowing us to more easily handle various input as parameters in a function. The rest parameter syntax allows us to represent an indefinite number of arguments as an array.
