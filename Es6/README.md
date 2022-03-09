@@ -8,6 +8,6 @@ The Destructing ssingment syntax is a JavaScript expression that makes it possib
 
 Template literals are literals with backticks(`), allowing embedded expressions called substitutions.
 
-### Arrow Fuction
+## Arrow Fuction
 
 Also called"Fat arrow function" are undoubtedly one of the more popular features of Es6. They introduced a new way of writing concise functions.
