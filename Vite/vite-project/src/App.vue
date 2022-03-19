@@ -1,9 +1,13 @@
 <script setup>
-import HelloWorld from "./components/HelloWorld.vue";
+// import HelloWorld from "./components/HelloWorld.vue";
+import ListRendering from "./components/ListRendering.vue";
 </script>
 
 <template>
-  <HelloWorld />
+  <div>
+    <!-- <HelloWorld /> -->
+    <ListRendering />
+  </div>
 </template>
 
 <style>
