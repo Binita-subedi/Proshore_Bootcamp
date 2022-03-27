@@ -1,12 +1,14 @@
 <script setup>
 // import HelloWorld from "./components/HelloWorld.vue";
 import ListRendering from "./components/ListRendering.vue";
+import key_Attribute from "./components/Key_Attribute.vue";
 </script>
 
 <template>
   <div>
     <!-- <HelloWorld /> -->
-    <ListRendering />
+    <!-- <ListRendering /> -->
+    <key_Attribute />
   </div>
 </template>
 
