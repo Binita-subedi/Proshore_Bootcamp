@@ -5,10 +5,13 @@
    <h2>Refs</h2>
    <p>{{ ninjaOne.name}} - {{ ninjaOne.age}}</p>
    <button @click="updateNinjaOne">Update ninja one</button>
-   <button @click="router.push('/reactivity')">Redirect</button>
    <h2>Reactive</h2>
    <p>{{ ninjaTwo.name}} - {{ ninjaTwo.age}}</p>
    <button @click="updateNinjaTwo">Update ninja Two</button>
+
+   <hr>
+   
+   <button @click="router.push('/reactivity')">Next page</button>
   </div>
 </template>
 
