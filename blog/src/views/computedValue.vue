@@ -5,7 +5,7 @@
   <p>Search term - {{ search }}</p>
   <div v-for="name in matchingNames" :key="name">{{ name }}</div>
   <hr>
-  <button @click="router.push('/watch')">Next Page</button>
+  <button @click="router.push('/props')">Next Page</button>
   
 </div>
 </template>

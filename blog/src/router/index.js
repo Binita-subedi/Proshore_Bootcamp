@@ -2,7 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import Ref_reactivity from '../views/Ref_reactivity.vue'
 import computedValue from '../views/computedValue.vue'
-import watchWatcheffect from '../views/watchWatcheffect.vue'
+import props from '../views/props.vue'
 
 const routes = [
   {
@@ -21,10 +21,11 @@ const routes = [
     component: computedValue
   },
   {
-  path: '/watch',
-  name: 'watchWatcheffect',
-  component: watchWatcheffect
+  path: '/props',
+  name: 'props',
+  component: props
   }
+ 
 ]
 
 const router = createRouter({
