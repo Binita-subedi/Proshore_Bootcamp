@@ -3,6 +3,7 @@ import HomeView from '../views/HomeView.vue'
 import Ref_reactivity from '../views/Ref_reactivity.vue'
 import computedValue from '../views/computedValue.vue'
 import props from '../views/props.vue'
+import Details from '../views/Details.vue'
 
 const routes = [
   {
@@ -24,6 +25,12 @@ const routes = [
   path: '/props',
   name: 'props',
   component: props
+  },
+  {
+    path: '/posts/:id',
+    name: 'Details',
+    component: Details,
+    props: true
   }
  
 ]
