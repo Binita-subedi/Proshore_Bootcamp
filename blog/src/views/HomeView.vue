@@ -1,6 +1,5 @@
 <template>
   <div class="home">
-   Home
    <h1>Home</h1>
    <h2>Refs</h2>
    <p>{{ ninjaOne.name}} - {{ ninjaOne.age}}</p>

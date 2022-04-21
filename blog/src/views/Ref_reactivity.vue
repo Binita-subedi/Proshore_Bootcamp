@@ -1,6 +1,5 @@
 <template>
   <div class="home">
-   Home
    <h1>Using Ref for reactivity</h1>
    <p> My name is {{ name }} and my age is {{ age }}</p>
    <button @click="handleclick">Click me</button>

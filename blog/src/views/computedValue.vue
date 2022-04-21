@@ -4,11 +4,16 @@
   <input type="text" v-model="search">
   <p>Search term - {{ search }}</p>
   <div v-for="name in matchingNames" :key="name">{{ name }}</div>
+  <hr>
+  <button @click="router.push('/watch')">Next Page</button>
+  
 </div>
 </template>
 
 <script>
-import { computed, ref } from 'vue'
+import { computed, ref, watch, watchEffect} from 'vue'
+import { useRouter } from 'vue-router';
+
 
 export default {
   name: 'computedValue',
@@ -16,12 +21,23 @@ export default {
     const search = ref('')
     const names = ref(['mario','yoshi','luigi','toad','bowser','koopa','peach'])
     
+    watch(search, () => {
+      console.log('watch function run')
+    })
+
+    watchEffect(() => {
+      console.log('watchEffect Function run', search.value)
+
+    })
+  
+    
     const matchingNames = computed(() => {
       return names.value.filter((name) => name.includes(search.value))
     })
+    const router = useRouter()
 
 
-    return { names, search, matchingNames }
+    return { names, search, matchingNames, router }
     }
   }
 </script>
