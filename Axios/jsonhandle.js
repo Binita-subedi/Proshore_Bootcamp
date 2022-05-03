@@ -1,4 +1,4 @@
-git const student = {
+const student = {
   name: 'John',
   age: 23,
   isActive: true
