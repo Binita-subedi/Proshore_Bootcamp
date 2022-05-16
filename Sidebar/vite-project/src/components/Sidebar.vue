@@ -126,7 +126,7 @@ aside {
 		color: var(--grey);
 		font-size: 1rem;
 		margin-bottom: 0.1rem;
-		margin-top: 0.1rem;
+		margin-top: 1rem;
 		padding-left: 1rem;
 	}
 
@@ -162,8 +162,7 @@ aside {
 			}
 			&.router-link-exact-active {
 				background-color: var(--light);
-				border-right: 2px solid var(--primary);
-				.material-icons,
+				.material-symbols-rounded,
 				.text {
 					color: var(--primary);
 				}
